@@ -1,0 +1,163 @@
+.navbar {
+  background-color: rgb(0, 0, 0,0.2);
+  width: 100%;
+  top: 0px;
+
+  display: flex;
+  position: fixed;
+  backdrop-filter: blur(12px);
+
+
+
+
+}
+
+#logo {
+  position: relative;
+  left: 25%;
+  top: 20px;
+}
+
+#title {
+  position: relative;
+  left: 25%;
+}
+
+#event {
+  display: block;
+  font-size: 20px;
+  color: blue;
+}
+
+.listitem1 {
+  display: inline-block;
+  position: relative;
+  left: 250px;
+  top: 50px;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.listitem {
+  display: inline-block;
+  position: relative;
+  left: 500px;
+  padding-left: 50px;
+
+  top: 50px;
+  font-size: 20px;
+}
+
+
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+li:hover a {
+  color: rgb(255, 102, 0);
+}
+
+
+
+
+
+
+
+
+
+
+.aboutimage {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+#title2 h1 {
+  margin-top: 80px;
+  font-size: 50px;
+
+}
+#title2 span{
+  color: aqua;
+}
+
+#shape1 {
+
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+  margin-top: 25%;
+  margin-left: -50px;
+
+
+
+
+}
+
+#shape2 {
+
+  background-color: aqua;
+  width: 250px;
+  height: 250px;
+  transform: rotate(45deg);
+  margin-top: 4%;
+  padding: 0px;
+  position: absolute;
+  margin-left: 28%;
+
+
+
+}
+
+#shape3 {
+  background-color: rgb(0, 21, 255);
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  margin-top: 16%;
+  padding: 0px;
+  position: absolute;
+  margin-left: 55%;
+
+}
+
+#shape4 {
+  background-color: rgb(8, 0, 255);
+  width: 80px;
+  height: 80px;
+  transform: rotate(45deg);
+  margin-top: 24%;
+
+
+}
+
+#shape5 {
+  background-color: rgb(110, 207, 207);
+  width: 80px;
+  height: 80px;
+  transform: rotate(45deg);
+  margin-top: 15%;
+  margin-left: 75%;
+  position: absolute;
+}
+
+#shape6 {background-color: aqua;
+  width: 100px;
+  height: 100px;
+  transform: rotate(45deg);
+  margin-top: 19%;
+  padding: 0px;
+  position: absolute;
+  margin-left: 88%;
+  
+  
+}
+#title2 p{ width: 550px;
+  font-size: 22px;margin-top: 20px;text-align: justify;
+}
+#heading{
+  font-size: 30px;
+
+}

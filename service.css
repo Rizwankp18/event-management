@@ -1,0 +1,162 @@
+.navbar {
+  background-color: rgb(0, 0, 0,0.2);
+  width: 100%;
+  top: 0px;
+
+  display: flex;
+  position: fixed;
+  backdrop-filter: blur(12px);
+
+
+
+
+}
+
+#logo {
+  position: relative;
+  left: 25%;
+  top: 20px;
+}
+
+#title {
+  position: relative;
+  left: 25%;
+}
+
+#event {
+  display: block;
+  font-size: 20px;
+  color: blue;
+}
+
+.listitem1 {
+  display: inline-block;
+  position: relative;
+  left: 250px;
+  top: 50px;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.listitem {
+  display: inline-block;
+  position: relative;
+  left: 500px;
+  padding-left: 50px;
+
+  top: 50px;
+  font-size: 20px;
+}
+
+
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+li:hover a {
+  color: rgb(255, 102, 0);
+}
+
+
+
+
+
+#service{
+    margin-top: 100px;
+}
+
+
+#heading1{
+  text-align: center;font-size: 45px;
+  padding-top: 50px;
+}
+#heading1 span{color: blue;
+}
+#heading1 p{
+font-size: 30px;
+text-align: center;
+width: 70%;
+margin-left:200px ;
+}
+
+.seri {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+
+}
+
+.ser1 {
+  background-color: rgb(178, 240, 240);
+  width: 620px;
+  height: 320px;
+  display: flex;
+}
+
+#plan1 {
+  width: 1800px;
+  height: 320px;
+  background-image: url("https://media.istockphoto.com/id/1340256496/photo/shot-of-a-young-woman-decorating-a-table-with-place-card-holders-in-preparation-for-a-wedding.jpg?s=612x612&w=0&k=20&c=gBQHa3_HywGsZv4MYRfvMpWAsgLLUkQvyMbG-lHBOSo=");
+  background-size: cover;
+
+
+}
+
+#plan2 {
+  width: 1800px;
+  height: 320px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqSXAnV3QPwI0sDnoRUvQTiwatF_M4n_Zisw&s");
+  background-size: cover;
+
+}
+
+#plan3 {
+  width: 1800px;
+  height: 320px;
+  background-image: url("https://www.shutterstock.com/image-photo/catering-food-wedding-600nw-282096881.jpg");
+  background-size: cover;
+}
+
+#plan4 {
+  width: 1800px;
+  height: 320px;
+  background-image: url("https://collegeofeventmanagement.edu.au/wp-content/uploads/2019/05/PASSION-shot.jpg");
+  background-size: cover;
+}
+
+#plan1:hover {
+  background-image: url("https://mspartners.llc/wp-content/uploads/2024/08/image.png");
+}
+
+#plan2:hover {
+  background-image: url("https://instinctmusic.com.au/wp-content/uploads/2016/02/Venue-selection-and-manasgement.jpg");
+}
+
+#plan3:hover {
+  background-image: url("https://cdn0.weddingwire.in/vendor/9105/3_2/960/jpg/caterers-royal-spoon-caterers-catering-setup-1_15_399105-164796636429883.jpeg");
+}
+
+#plan4:hover {
+  background-image: url("https://static1.squarespace.com/static/5f648348e0a19475b69e3c61/5f64835ee0a19475b69e41ec/66df2e5aad482402008e32ca/1726852825408/web_shutterstock_39423697_res+%28289%29.jpg?format=1500w");
+}
+
+#readmore a {
+  text-decoration: none;
+  margin-left: 150px;
+}
+
+#plantext {
+  margin: 10px;
+}
+
+#more a {
+
+  text-decoration: none;
+  font-size: 20px;
+
+  margin-left: 85%;
+  background-color: rgb(255, 102, 0);
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
